@@ -15,7 +15,7 @@ Il affiche :
   
   # Fichier config.js
   
-C'est le fichier permettant de configurer le Widget. (indispensable)
+C'est le fichier permettant de configurer le Widget, identique à option.plist qui lui est pour LockHTML (indispensable)
  - Activer ou non le format am/pm
  - Activer ou non le calendrier
  - Changer la couleur de l'overlay (format rgba utilisé mais libre à vous)
