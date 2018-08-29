@@ -1,0 +1,105 @@
+
+/***** Style général du widget *****/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  font-size:62.5%;
+}
+
+#wrap {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+@font-face {
+  font-family: Mapolice;
+  src: url("../font/Typo Hoop_Light_Demo.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Mapolice2;
+  src: url("../font/Champagne & Limousines.ttf");
+  font-weight: normal;
+}
+
+#heure,
+#separator,
+#minutes
+{
+    font-size: 7rem;
+    font-family: Mapolice;
+    /* word-spacing: -4px; */
+}
+
+#separator {
+    word-spacing: -10px; 
+}
+
+
+#jour,
+#date,
+#mois
+{
+    font-size: 2.5rem;
+    font-family: Mapolice2;
+}
+
+#jour
+{
+    clear: both;
+}
+
+#date,
+#numerique
+{
+    color: white;
+}
+
+#numerique
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding: 0 10px;
+}
+
+#ampm
+{
+    font-family: Mapolice2;
+    font-size: 2.5rem;
+    /* padding-top: 4rem;  */
+    padding-left: 1rem;
+}
+
+#meteoConteneur
+{
+    width: 100%;
+    font-size: 1.7rem;
+    font-family: Mapolice2;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+#meteo {
+    align-items: center;
+}
+
+#icone
+{
+    padding-right: 1.1rem;
+}
+

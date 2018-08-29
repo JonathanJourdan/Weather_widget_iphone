@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <dict>
+		<key>default</key>
+		<string>iphone</string>
+		<key>label</key>
+		<string>Device</string>
+		<key>name</key>
+		<string>device</string>
+		<key>options</key>
+		<dict>
+			<key>iPhone</key>
+			<string>iphone</string>
+			<key>iPad</key>
+			<string>ipad</string>
+		</dict>
+		<key>type</key>
+		<string>select</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>false</string>
+		<key>label</key>
+		<string>Show am/pm</string>
+		<key>name</key>
+		<string>ampm</string>
+		<key>type</key>
+		<string>switch</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>true</string>
+		<key>label</key>
+		<string>Enable calendar</string>
+		<key>name</key>
+		<string>calendar</string>
+		<key>type</key>
+		<string>switch</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>rgba(0, 0, 0, 0.5)</string>
+		<key>label</key>
+		<string>Overlay Color</string>
+		<key>name</key>
+		<string>overlaycolor</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<string>random</string>
+		<key>label</key>
+		<string>Background (random, daily, weekly or none)</string>
+		<key>name</key>
+		<string>background</string>
+		<key>options</key>
+		<dict>
+			<key>Random</key>
+			<string>random</string>
+			<key>Daily</key>
+			<string>daily</string>
+			<key>Weekly</key>
+			<string>weekly</string>
+			<key>None</key>
+			<string>none</string>
+		</dict>
+		<key>type</key>
+		<string>select</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<string></string>
+		<key>label</key>
+		<string>Background Categorie</string>
+		<key>name</key>
+		<string>backgroundcategorie</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>rgba(255, 255, 255, 1)</string>
+		<key>label</key>
+		<string>Calendar color</string>
+		<key>name</key>
+		<string>calendarcolor</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>rgba(255, 255, 255, 1)</string>
+		<key>label</key>
+		<string>Date color</string>
+		<key>name</key>
+		<string>datecolor</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>rgba(255, 255, 255, 0.7)</string>
+		<key>label</key>
+		<string>AM/PM color</string>
+		<key>name</key>
+		<string>ampmcolor</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>rgba(255, 255, 255, 1)</string>
+		<key>label</key>
+		<string>Hour color</string>
+		<key>name</key>
+		<string>hourcolor</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>rgba(255, 255, 255, 0.7)</string>
+		<key>label</key>
+		<string>Separator color</string>
+		<key>name</key>
+		<string>separatorcolor</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>rgba(255, 255, 255, 1)</string>
+		<key>label</key>
+		<string>Minute color</string>
+		<key>name</key>
+		<string>minutecolor</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>true</string>
+		<key>label</key>
+		<string>Enable Weather</string>
+		<key>name</key>
+		<string>enableweather</string>
+		<key>type</key>
+		<string>switch</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>92ebbd70823c7de58e7103d65f9b7ade</string>
+		<key>label</key>
+		<string>API Key (for weather on open weather map website)</string>
+		<key>name</key>
+		<string>apikey</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>3036502</string>
+		<key>label</key>
+		<string>City ID (ID of your city on open weather map website)</string>
+		<key>name</key>
+		<string>cityid</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<string>metric</string>
+		<key>label</key>
+		<string>Weather Unit (metric = °C and imperial = °F)</string>
+		<key>name</key>
+		<string>weatherunit</string>
+		<key>options</key>
+		<dict>
+			<key>°C</key>
+			<string>metric</string>
+			<key>°F</key>
+			<string>imperial</string>
+		</dict>
+		<key>type</key>
+		<string>select</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>rgba(255,255,255,1)</string>
+		<key>label</key>
+		<string>Temperature color</string>
+		<key>name</key>
+		<string>tempcolor</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+    <dict>
+		<key>default</key>
+		<string>none</string>
+		<key>label</key>
+		<string>Mask Weather element</string>
+		<key>name</key>
+		<string>maskweatherelement</string>
+		<key>options</key>
+		<dict>
+			<key>Icon</key>
+			<string>icon</string>
+			<key>Temp</key>
+			<string>temp</string>
+			<key>City</key>
+			<string>city</string>
+            <key>none</key>
+			<string>none</string>
+		</dict>
+		<key>type</key>
+		<string>select</string>
+	</dict>
+</array>
+</plist>
