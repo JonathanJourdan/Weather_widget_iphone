@@ -13,9 +13,9 @@ Il affiche :
   - La météo en temps réel de la ville de votre choix (nécessite une clé api OpenWeather Map disponible sur leur site https://openweathermap.org/)
   - Fond d'écran issus du site https://unsplash.com/ (plusieurs paramétres possibles)
   
-  # Fichier config.js
+  # Fichier Config.js
   
-C'est le fichier permettant de configurer le Widget, identique à option.plist qui lui est pour LockHTML (indispensable)
+C'est le fichier permettant de configurer le Widget, identique à Options.plist qui lui est pour LockHTML (indispensable)
  - Activer ou non le format am/pm
  - Activer ou non le calendrier
  - Changer la couleur de l'overlay (format rgba utilisé mais libre à vous)
