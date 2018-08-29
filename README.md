@@ -27,6 +27,6 @@ C'est le fichier permettant de configurer le Widget, identique à Options.plist 
  - Modifier le code de la ville
  - Modifier l'unité de mesure de la météo métric ou imperial
 
-# Versions Future
+# Versions Futures
 - Ajout des prévisions météo sur 5 jours
 - Traduction en plusieurs langue
